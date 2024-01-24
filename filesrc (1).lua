@@ -2530,11 +2530,11 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Blue>Finn hub ae<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Blue>Finn hub chào ae<Color=/>"):Display()
     wait(.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Red>Hãy sử dụng Fluxus để có trải nghiệm tốt!!<Color=/>"):Display()
     wait(.24)
-    require(game.ReplicatedStorage.Notification).new("<Color=Black>Tham gia discord để cập nhật thông tin mới nhất nhé<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Green>Tham gia discord để cập nhật thông tin mới nhất nhé<Color=/>"):Display()
     wait(.29)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Đăng ký kênh Finn roblox để xem video mới nhất nhé<Color=/>"):Display()
     wait(.36)
@@ -2554,7 +2554,7 @@ OrionLib:MakeNotification({
 wait(3)
 OrionLib:MakeNotification({
     Name = "Finn hub",
-    Content = "đợi tí",
+    Content = "đợi 5s",
     Image = "rbxassetid://8192162908",
     Time = 10
 })
@@ -11340,7 +11340,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "tên cần đổi",
+                    Name = "Finn hub",
                     Content = "Hop Server",
                     Image = "rbxassetid://8192162908",
                     Time = 5
